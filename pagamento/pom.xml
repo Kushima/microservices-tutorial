@@ -70,8 +70,8 @@
 						<configuration>
 							<registry>registry.hub.docker.com/akushima</registry>
 							<authConfig>
-								<username>akushima</username>
-								<password>Kushima132</password>
+								<username>***</username>
+								<password>***</password>
 							</authConfig>
 							<images>
 								<image>
