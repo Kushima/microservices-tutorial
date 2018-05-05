@@ -68,11 +68,6 @@
 						<groupId>io.fabric8</groupId>
 						<artifactId>docker-maven-plugin</artifactId>
 						<configuration>
-							<registry>registry.hub.docker.com/akushima</registry>
-							<authConfig>
-								<username>***</username>
-								<password>***</password>
-							</authConfig>
 							<images>
 								<image>
 									<name>akushima/${project.name}:${project.version}</name>

@@ -5,7 +5,7 @@ import javax.enterprise.context.ApplicationScoped;
 @ApplicationScoped
 public class PagamentoService {
 
-	public String getPagamento(String id) {
+	public String getRecarga(String id) {
 		return "Service: " + id;
 	}
 }
