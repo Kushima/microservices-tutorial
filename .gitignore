@@ -16,3 +16,8 @@ buildNumber.properties
 
 # Apache TomEE
 .distribution/
+
+# Eclipse
+.classpath
+.project
+.settings/
