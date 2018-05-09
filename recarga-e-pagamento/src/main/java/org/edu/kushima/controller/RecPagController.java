@@ -1,4 +1,4 @@
-package org.edu.kushima.pagamento.controller;
+package org.edu.kushima.controller;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
@@ -7,18 +7,18 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import org.edu.kushima.pagamento.service.PagamentoService;
+import org.edu.kushima.service.RecPagService;
 
-@Path("/pagamento")
-public class PagamentoController {
+@Path("/recpag")
+public class RecPagController {
 
 	@Inject
-    PagamentoService service;
+    private RecPagService service;
 	
 	@GET
 	@Path("{id}")
 	@Produces("text/plain")
 	public Response getPayments(@PathParam("id") String id) throws Exception {
-		return Response.ok(service.getPagamento(id)).build();
+		return Response.ok(service.getRecPag(id)).build();
 	}
 }
