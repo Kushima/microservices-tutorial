@@ -1,0 +1,3 @@
+url:
+  pagamento: localhost:8081/pagamento
+  recarga: localhost:8080/recarga
