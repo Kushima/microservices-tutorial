@@ -21,3 +21,5 @@ buildNumber.properties
 .classpath
 .project
 .settings/
+*.log
+recarga-e-pagamento/.project
