@@ -19,6 +19,6 @@ public class PagamentoController {
 	@Path("{id}")
 	@Produces("text/plain")
 	public Response getPayments(@PathParam("id") String id) throws Exception {
-		return Response.ok(service.getPagamento(id)).build();
+		return Response.ok(service.getRecarga(id)).build();
 	}
 }
